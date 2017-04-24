@@ -10,15 +10,15 @@ $(document).ready(function() {
 	$('ul li').on('click', function() {
 		$(this).text('Clicked!');
 		if ($(this).css("color") === 'rgb(0, 128, 0)') {
-			$(this).css({"background-color": "rgba(0,0,0,0)",
+			$(this).css({"background-color": "yellow",
 						"color" : "black"
 						});
-
 		} else {
 		$(this).css({"color": "green",
 					 "background-color": "#DE5A51"});
 		};
 	});
+
 	$('div').on('click', function() {
 		if ($(this).hasClass('bigBox')) {
 			$(this).fadeOut(0).removeClass('bigBox').addClass('littleBox').fadeIn(1500);

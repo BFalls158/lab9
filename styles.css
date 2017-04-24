@@ -26,3 +26,7 @@ div {
 	height: 100px;
 	background-color: magenta;
 }
+
+span {
+	display: none;
+}
